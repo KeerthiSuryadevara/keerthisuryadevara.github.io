@@ -1,11 +1,11 @@
 var myimage = document.querySelector('img');
 myimage.onclick = function () {
     var mysrc = myimage.getAttribute('src');
-    if (mysrc === 'images/shaurya.jpg') {
-        myimage.setAttribute('src', 'images/shaurya1.jpg');
+    if (mysrc === 'images/shaurya.JPG') {
+        myimage.setAttribute('src', 'images/shaurya1.JPG');
     }
     else {
-            myimage.setAttribute('src', 'images/shaurya.jpg');
+            myimage.setAttribute('src', 'images/shaurya.JPG');
          }
     }
 var mybutton = document.querySelector('button');
